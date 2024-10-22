@@ -1,9 +1,9 @@
-package mymoves.physical;
+package moves.physical;
 import ru.ifmo.se.pokemon.*;
 
-public class LeechLife extends PhysicalMove {
-    public LeechLife() {
-        super(Type.BUG, 80, 1);
+public class WaterFall extends PhysicalMove {
+    public WaterFall() {
+        super(Type.WATER, 80, 1);
 
     }
 
@@ -14,15 +14,16 @@ public class LeechLife extends PhysicalMove {
     @Override
     protected void applyOppEffects(Pokemon p) {
         super.applyOppEffects(p);
-    }
 
-    @Override
-    protected void applySelfEffects(Pokemon p) {
-        p.setMod(Stat.HP, -40);
+        if (chance(0.2)) {
+            Effect.flinch(p);
+        }
+
+
     }
 
     @Override
     protected String describe() {
-        return "is using LeechLife";
+        return "is using WaterFall";
     }
 }

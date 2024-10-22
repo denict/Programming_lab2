@@ -1,7 +1,7 @@
-package mypokemons;
+package pokemons;
 
-import mymoves.physical.FurySwipes;
-import mymoves.status.Confide;
+import moves.physical.FurySwipes;
+import moves.status.Confide;
 import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Type;
 

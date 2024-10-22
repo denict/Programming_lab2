@@ -1,6 +1,6 @@
-package mypokemons;
+package pokemons;
 
-import mymoves.status.SlackOff;
+import moves.status.SlackOff;
 //import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Type;
 

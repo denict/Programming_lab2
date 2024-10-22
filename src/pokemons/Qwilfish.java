@@ -1,9 +1,9 @@
-package mypokemons;
+package pokemons;
 
-import mymoves.physical.AquaTail;
-import mymoves.physical.PinMissile;
-import mymoves.physical.PoisonSting;
-import mymoves.special.AcidSpray;
+import moves.physical.AquaTail;
+import moves.physical.PinMissile;
+import moves.physical.PoisonSting;
+import moves.special.AcidSpray;
 import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Type;
 

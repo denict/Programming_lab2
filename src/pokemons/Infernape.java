@@ -1,6 +1,6 @@
-package mypokemons;
+package pokemons;
 
-import mymoves.status.CalmMind;
+import moves.status.CalmMind;
 //import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Type;
 

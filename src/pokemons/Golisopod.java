@@ -1,9 +1,9 @@
-package mypokemons;
+package pokemons;
 
-import mymoves.physical.LeechLife;
-import mymoves.physical.WaterFall;
-import mymoves.physical.Facade;
-import mymoves.status.SwordsDance;
+import moves.physical.LeechLife;
+import moves.physical.WaterFall;
+import moves.physical.Facade;
+import moves.status.SwordsDance;
 import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Type;
 

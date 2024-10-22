@@ -1,19 +1,19 @@
-package mymoves.status;
+package moves.status;
 import ru.ifmo.se.pokemon.*;
 
 
-public class SlackOff extends StatusMove {
-    public SlackOff() {
+public class SwordsDance extends StatusMove {
+    public SwordsDance() {
         super(Type.NORMAL, 0, 1);
 
     }
     @Override
     protected void applySelfEffects(Pokemon p) {
-        p.setMod(Stat.HP, (int) Math.round(-50*Math.random()));
+        p.setMod(Stat.ATTACK, 2);
     }
 
     @Override
     protected String describe() {
-        return "is using Confide";
+        return "is using SwordsDance";
     }
 }

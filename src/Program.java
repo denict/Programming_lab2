@@ -1,8 +1,7 @@
-package lab2;
 // variant
-import mypokemons.*;
+import pokemons.*;
 import ru.ifmo.se.pokemon.Battle;
-import ru.ifmo.se.pokemon.Pokemon;
+
 public class Program {
     public static void main(String[] args) {
         Battle b = new Battle();
