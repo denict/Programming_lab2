@@ -13,8 +13,11 @@ public class Facade extends PhysicalMove {
         super.applyOppEffects(p);
 
         switch (p.getCondition()) {
-            case Status.BURN, Status.POISON, Status.PARALYZE:
+            case BURN:
+            case POISON:
+            case PARALYZE:
                 p.setMod(Stat.HP, 70);
+
         }
 
 

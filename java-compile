@@ -1,0 +1,9 @@
+javac -d . -cp lib/Pokemon.jar --source-path src src/Program.java
+
+ee manifest
+Class-Path: lib/Pokemon.jar
+Main-Class: Program
+
+jar -c -f MyPokemons.jar -m manifest Program.class moves/*/*.class pokemons/*.class
+
+java -jar MyPokemons.jar
